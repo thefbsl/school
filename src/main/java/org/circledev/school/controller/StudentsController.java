@@ -15,7 +15,7 @@ import java.util.List;
 public class StudentsController {
     private final StudentFacade studentFacade;
 
-    @PostMapping("/create/")
+    @PostMapping("/create")
     public StudentDto createStudent(@RequestBody CreateStudent request){
         return studentFacade.createStudent(request);
     }
