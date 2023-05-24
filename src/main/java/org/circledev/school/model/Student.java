@@ -20,4 +20,6 @@ public class Student {
             nullable = false
     )
     private String email;
+    @OneToOne(mappedBy = "student")
+    private Locker locker;
 }

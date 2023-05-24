@@ -1,11 +1,13 @@
-package org.circledev.school.request;
+package org.circledev.school.student;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class UpdateStudent {
+@Builder
+public class CreateStudentRequest {
     private String firstName;
     private String lastName;
     private String email;

@@ -3,8 +3,8 @@ package org.circledev.school.controller;
 import lombok.RequiredArgsConstructor;
 import org.circledev.school.dto.StudentDto;
 import org.circledev.school.facade.StudentFacade;
-import org.circledev.school.request.CreateStudent;
-import org.circledev.school.request.UpdateStudent;
+import org.circledev.school.request.student.CreateStudent;
+import org.circledev.school.request.student.UpdateStudent;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -1,8 +1,8 @@
 package org.circledev.school.facade;
 
 import org.circledev.school.dto.StudentDto;
-import org.circledev.school.request.CreateStudent;
-import org.circledev.school.request.UpdateStudent;
+import org.circledev.school.request.student.CreateStudent;
+import org.circledev.school.request.student.UpdateStudent;
 
 import java.util.List;
 

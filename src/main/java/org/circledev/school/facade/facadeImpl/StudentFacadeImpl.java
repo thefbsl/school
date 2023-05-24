@@ -5,8 +5,8 @@ import org.circledev.school.dto.StudentDto;
 import org.circledev.school.facade.StudentFacade;
 import org.circledev.school.mapper.StudentMapper;
 import org.circledev.school.model.Student;
-import org.circledev.school.request.CreateStudent;
-import org.circledev.school.request.UpdateStudent;
+import org.circledev.school.request.student.CreateStudent;
+import org.circledev.school.request.student.UpdateStudent;
 import org.circledev.school.service.StudentService;
 import org.springframework.stereotype.Component;
 
