@@ -7,9 +7,9 @@ import org.circledev.school.request.student.UpdateStudent;
 import java.util.List;
 
 public interface StudentFacade {
-    public StudentDto createStudent(CreateStudent request);
-    public List<StudentDto> getStudents();
-    public StudentDto getStudentById(Long studentId);
-    public StudentDto updateStudent(Long studentId, UpdateStudent request);
-    public void deleteStudent(Long studentId);
+    StudentDto createStudent(CreateStudent request);
+    List<StudentDto> getStudents();
+    StudentDto getStudentById(Long studentId);
+    StudentDto updateStudent(Long studentId, UpdateStudent request);
+    void deleteStudent(Long studentId);
 }
